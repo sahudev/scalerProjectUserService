@@ -21,7 +21,7 @@ public class CustomUserDetails implements UserDetails {
     private boolean accountNonLocked;
     private boolean credentialsNonExpired;
     private boolean enabled;
-
+    private Long userId;
 
     public CustomUserDetails() {
     }
@@ -40,6 +40,7 @@ public class CustomUserDetails implements UserDetails {
         this.accountNonLocked = true;
         this.credentialsNonExpired = true;
         this.enabled = true;
+        this.userId = user.getId();
     }
 
     @Override
@@ -90,5 +91,13 @@ public class CustomUserDetails implements UserDetails {
     public boolean isEnabled() {
                 //return true;
         return enabled;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 }
