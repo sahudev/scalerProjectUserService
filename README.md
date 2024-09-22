@@ -1,6 +1,6 @@
 # User Service - E-commerce Microservice
 
-Note: Please ref all these repos for the complete project 
+Note: Please refer all these repos for the complete project 
 https://github.com/sahudev/scalerProjectUserService; 
 https://github.com/sahudev/scalerProjectPaymentService; 
 https://github.com/sahudev/scalerProjectProductService; 
