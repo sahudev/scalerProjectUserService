@@ -1,5 +1,11 @@
 # User Service - E-commerce Microservice
 
+Note: Please ref all these repos for the complete project 
+https://github.com/sahudev/scalerProjectUserService; 
+https://github.com/sahudev/scalerProjectPaymentService; 
+https://github.com/sahudev/scalerProjectProductService; 
+https://github.com/sahudev/scalerProjectEmailService;
+
 ## Overview
 This repository contains the **User Service** for an e-commerce application, developed as part of a microservices-based architecture. The User Service handles all user-related operations such as registration, authentication, and managing user profiles.
 
